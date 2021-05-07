@@ -59,5 +59,8 @@
 }
 
 p {
+  position: absolute;
+  top:30%;
+  left: 48%;
   text-align: center;
 }
