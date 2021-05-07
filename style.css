@@ -13,23 +13,24 @@
   width: 500px;
   height: 150px;
   border: 1px solid black;
+  background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.55)),  url("img/bg.png");
+  background-position:center;
+  background-size: cover;
 }
 
 #character{
-  width: 20px;
+  width: 56px;
   height: 50px;
-  background-color: red;
   position: relative;
   top:100px;
 }
 
 #block {
-  width: 20px;
+  width:50px;
   height: 20px;
-  background-color: green;
   position: relative;
-  top: 80px;
-  left: 480px;
+  top: 56px;
+  left: 450px;
   animation:block 1s infinite linear;
 }
 .animate {
